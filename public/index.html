@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <title>list of customers</title>
+    
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <script src="bootstrap-4.4.1-dist/js/jquery-3.5.0.min.js"></script>
+        <script src="controller.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+     
+    </head>
+    <body>
+      <div class="container">
+          <div class="col-sm-6">
+              <h1>Integrate express, jquery and ajax!!!</h1>
+              <div>
+                  <form id="customerForm">
+                      <div class="form-group">
+                          <label for="firstname">firstName</label>
+                         <input type="text" class="form-control" id="firstname" placeholder="Enter your firstname">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastname">lastName</label>
+                       <input type="text" class="form-control" id="lastname" placeholder="Enter your lastname">
+                    </div>
+                    <button type="submit" class="btn-primary">Submit</button>
+                  </form>
+              </div>
+
+              <div id="postResultDiv"></div>
+              <br>
+              <div>
+                  <button id="allcustomers" type="button" class="btn-primary">Customers</button>
+                  <div id="getResultDiv">
+                      <ul class="list-group"></ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </body>
+    </html>

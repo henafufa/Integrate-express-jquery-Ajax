@@ -1,0 +1,18 @@
+{
+  "name": "integrate-express-jquery-ajax",
+  "version": "1.0.0",
+  "description": "Integrating nodejs to bootstrap page using jquery -ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jquery",
+    "ajax",
+    "bootstrap"
+  ],
+  "author": "Hena Fufa",
+  "license": "ISC"
+}
